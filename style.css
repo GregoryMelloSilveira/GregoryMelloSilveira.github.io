@@ -103,12 +103,12 @@ body {
     padding-top: 1.5rem;
 }
 .skills ul li p {
-    padding: .4rem 0;
+    padding: .4rem 4;
     color: #5ecccc;
     font-size: 18px;
     letter-spacing: 1px;
     display: flex;
-    align-items: center;
+    align-items: left;
     text-transform: uppercase;
 }
 
@@ -131,7 +131,7 @@ body {
 
 
 .right-section-contents {
-    padding: 2rem 2rem;
+    padding: 3rem;
 }
 
 .right-title {
@@ -142,7 +142,7 @@ body {
     font-weight: bold;
     display: flex;
     align-items: center;
-    padding: 2rem 0;
+    padding: 2rem;
     position: relative;
 }
 
@@ -154,6 +154,7 @@ body {
     letter-spacing: 1px;
     line-height: 2rem;
     color: #122f4e;
+    padding: 2rem;
 }
 
 .experience-contents,
@@ -161,8 +162,7 @@ body {
 .awards-contents {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding-bottom: 2rem;
-    color: #ff0606;
+    padding: 2rem;
 }
 
 .exp-company-name,
@@ -173,16 +173,15 @@ body {
     text-transform: uppercase;
     letter-spacing: 1px;
     color: #275f5f
-    .4rem;
 }
 
 .exp-time-period,
-.educationp-time-period,
+.education-time-period,
 .awards-time-period {
     font-size: 18px;
     letter-spacing: 1px;
     line-height: 2rem;
-    color: #275f5f;
+    color: #5ecccc;
 }
 
 .exp-position,
@@ -202,8 +201,8 @@ body {
     font-size: 16px;
     letter-spacing: 1px;
     line-height: 1.5rem;
-    border-left: 3px solid #275f5f;
     padding-left: 5px;
+    color: #5ecccc;
 }
 
 /* Media queries */
