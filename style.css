@@ -96,39 +96,22 @@ body {
 .references ul li i {
     padding-right: 1rem;
     font-size: 18px;
-    color: #ff0606;
+    color: #275f5f;
 }
 
 .skills ul {
     padding-top: 1.5rem;
 }
+
 .skills ul li p {
     padding: .4rem 4;
     color: #5ecccc;
     font-size: 18px;
     letter-spacing: 1px;
     display: flex;
-    align-items: left;
+    align-items: center;
     text-transform: uppercase;
 }
-
-.referance-name {
-    padding-top: 1.5rem;
-    padding-bottom: .4rem;
-    font-size: 18px;
-    color: #fa08b1;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-}
-
-.referance-profession {
-    font-size: 16px;
-    color: #ffe600af;
-    letter-spacing: 1px;
-    /* text-transform: uppercase; */
-    padding-bottom: .4rem;
-}
-
 
 .right-section-contents {
     padding: 3rem;
@@ -142,19 +125,20 @@ body {
     font-weight: bold;
     display: flex;
     align-items: center;
-    padding: 2rem;
+    padding: 2rem 2rem 1rem;
     position: relative;
 }
 
 .gap {
     padding-bottom: 2rem;
 }
+
 .about-me-contents {
-    font-size: 18px;
+    font-size: 21px;
     letter-spacing: 1px;
     line-height: 2rem;
     color: #122f4e;
-    padding: 2rem;
+    padding: 2rem 0rem 0rem 2rem;
 }
 
 .experience-contents,
@@ -162,7 +146,7 @@ body {
 .awards-contents {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding: 2rem;
+    padding: 1rem 3rem 1rem 3rem;
 }
 
 .exp-company-name,
